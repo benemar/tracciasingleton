@@ -1,0 +1,22 @@
+Realizzare un'applicazione Java che utilizzi il pattern Singleton per gestire un registro degli utenti e le sessioni degli utenti.
+L'applicazione dovrà permettere la registrazione di nuovi utenti, l'accesso tramite credenziali e la gestione delle sessioni di utenti autenticati,
+garantendo che esista una sola istanza del registro degli utenti durante l'esecuzione dell'applicazione.
+
+Descrizione del Problema
+Spesso, le applicazioni Java richiedono la gestione degli utenti e delle sessioni utente per consentire l'accesso agli utenti e proteggere le risorse dell'applicazione. È necessario garantire che le informazioni sugli utenti siano centralizzate e che le sessioni degli utenti siano gestite in modo sicuro e coerente.
+
+Requisiti Funzionali
+La classe RegistroUtenti dovrà implementare il pattern Singleton per garantire l'esistenza di una sola istanza del registro degli utenti durante l'esecuzione dell'applicazione.
+La classe RegistroUtenti dovrà fornire metodi per la registrazione di nuovi utenti, l'accesso tramite credenziali e la gestione delle sessioni di utenti autenticati.
+Ogni utente dovrà avere un identificatore univoco, un nome utente e una password.
+La classe SessioneUtente dovrà rappresentare una sessione di un utente autenticato e fornire metodi per controllare lo stato della sessione.
+La classe Main dovrà dimostrare l'uso della classe RegistroUtenti, registrando nuovi utenti, autenticando gli utenti e gestendo le sessioni degli utenti autenticati.
+
+Specifiche Dettagliate
+La classe RegistroUtenti dovrà contenere un insieme di utenti registrati.
+La classe RegistroUtenti dovrà avere un costruttore privato per impedire la creazione di istanze multiple.
+La classe RegistroUtenti dovrà implementare un metodo getInstance() che restituisca l'unica istanza del registro degli utenti.
+La classe RegistroUtenti dovrà fornire metodi pubblici per la registrazione di nuovi utenti, l'accesso tramite credenziali e la gestione delle sessioni di utenti autenticati.
+Ogni utente dovrà essere rappresentato da un oggetto Utente con un identificatore univoco, un nome utente e una password.
+La classe SessioneUtente dovrà fornire metodi per iniziare, terminare e controllare lo stato della sessione di un utente.
+La classe Main dovrà dimostrare l'uso della classe RegistroUtenti, registrando nuovi utenti, autenticando gli utenti e gestendo le sessioni degli utenti autenticati.
